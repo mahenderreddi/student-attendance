@@ -20,10 +20,10 @@ public class StudentAttendanceService {
     public Optional<StudentAttendance> getById(Long id) {
         return repository.findById(id);
     }
-public List<StudentAttendance> findAll(){
-        return  repository.findAll()
-;
-    }
+//public List<StudentAttendance> findAll(){
+//        return  repository.findAll()
+//;
+//    }
     public void updateStudent(StudentAttendance student){
         repository.save(student);
 
