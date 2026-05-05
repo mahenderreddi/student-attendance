@@ -29,6 +29,10 @@ public List<StudentAttendance> findAll(){
 
     }
 
+public void deleteStudent(Long id){
+        repository.deleteById(id) ;
+}
+
 
     }
 

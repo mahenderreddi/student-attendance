@@ -32,8 +32,13 @@ public List<StudentAttendance> findAll()
         return service.findAll();
 }
 @PutMapping
-public void updateStudent(@RequestBody StudentAttendance student){
+public void updateStudent(@RequestBody StudentAttendance student)
+{
         service.updateStudent(student);
 }
-}
+@DeleteMapping("/{id}")
+public void deleteById(@PathVariable Long id){
+        service.deleteStudent(id);
+}}
+
 
