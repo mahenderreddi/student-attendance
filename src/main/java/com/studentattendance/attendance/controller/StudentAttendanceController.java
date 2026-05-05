@@ -26,10 +26,17 @@ public class StudentAttendanceController {
         return service.getById(id);
 
     }
+<<<<<<< HEAD
 ////    @GetMapping
 ////public List<StudentAttendance> findAll()
 ////    {
 ////        return service.findAll();
+=======
+//    @GetMapping
+//public List<StudentAttendance> findAll()
+//    {
+//        return service.findAll();
+>>>>>>> 2e38c1575b0cca095699fe145c6814db60a5ee5c
 //}
 @PutMapping
 public void updateStudent(@RequestBody StudentAttendance student)
